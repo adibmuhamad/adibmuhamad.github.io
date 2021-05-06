@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("filiberto-santillan-1HCb2gPk3ik-unsplash.jpg") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("images/background_3.png") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
     overflow:hidden;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Source Code Pro', sans-serif;
 }
 #loading {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(0, 42, 70);
+    background: #ff5656;
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(0, 42, 70);
+    border-bottom:12px solid #ff5656;
     border-radius:50%;
     margin:0;
 }
@@ -47,10 +47,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(0, 42, 70);
+    background: #ff5656;
 }
 .box2 {
-    background:rgb(0, 42, 70);
+    background:#ff5656;
     margin-left:-5px;
 }
 #menu {
@@ -79,9 +79,8 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(4, 110, 180);
+    color: #ff5656;
     font-size:50px;
-    text-decoration:underline;
 }
 #about {
     width:10vw;
@@ -137,15 +136,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgb(0, 42, 70);
+    background: #ff5656;
     cursor:pointer;
 }
 #work:hover {
-    background:rgb(0, 42, 70);
+    background:#ff5656;
     cursor:pointer;
 }
 #portofolio:hover {
-    background:rgb(0, 42, 70);
+    background:#ff5656;
     cursor:pointer;
 }
 #middle table {
@@ -165,13 +164,13 @@ body {
 }
 .social:hover { 
     cursor: pointer;
-    color:rgb(0, 42, 70);
+    color:#ff5656;
 }
 .container {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(0, 42, 70);
+    background:#ff5656;
     color:#fff;
     z-index:9;
     position:fixed;
@@ -206,14 +205,13 @@ body {
 }
 .container h1 {
     font-size:40px;
-    text-decoration:underline;
 }
 .container p {
     font-size:21px;
 }
 .btn_one {
     font-size:18px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Source Code Pro', sans-serif;
     color:#fff;
     background:transparent;
     border:3px solid #fff;
@@ -225,13 +223,13 @@ body {
 }
 .btn_one:hover {
     cursor:pointer;
-    color:rgb(0, 42, 70);
+    color:#ff5656;
     background:#fff;
 }
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:rgb(0, 42, 70);
+    color:#ff5656;
     background:#fff;
     border:3px solid #fff;
     padding:8px 40px;
@@ -295,7 +293,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(255, 60, 0);
+    color:#ff5656;
 }
 #particles-js {
     position:fixed;
