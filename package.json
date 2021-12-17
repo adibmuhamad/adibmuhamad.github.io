@@ -1,5 +1,22 @@
 {
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/style.css -o ./dist/style.css --watch",
+    "watch:tailwind": "nodemon --watch ./src/style.css -x \"npm run build:css\"",
+    "serve": "npm run watch:tailwind",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.0.6"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.15",
+    "gh-pages": "^3.2.3"
   }
 }
+
